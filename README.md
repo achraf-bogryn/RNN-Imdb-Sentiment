@@ -79,8 +79,7 @@ streamlit run main.py
 ```bash 
 sentiment-analysis-imdb/
 │
-├── app.py                                     # Streamlit interface
-├── SimpleRnn/main.py                          # Model training script
+├── SimpleRnn/main.py                          # Streamlit interface
 ├── SimpleRnn/imdb_rnn_model.h5                # Saved RNN model
 ├── images/                                    # Visual assets for README
 ├── requirements.txt                           # Dependencies
