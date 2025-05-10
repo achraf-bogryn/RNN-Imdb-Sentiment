@@ -59,8 +59,8 @@ The app allows users to input their own movie reviews and receive sentiment pred
 ### 🔹 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/sentiment-analysis-imdb.git
-cd sentiment-analysis-imdb
+git clone https://github.com/achraf-bogryn/RNN-Imdb-Sentiment.git
+cd RNN-Imdb-Sentiment
 ```
 
 ### 🔹 Install the required packages:
@@ -68,14 +68,9 @@ cd sentiment-analysis-imdb
 pip install -r requirements.txt
 ```
 
-### 🔹 Train the Model:
-```bash
-python sentiment_rnn.py
-```
-
 ### 🔹 Run the Streamlit App:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ### 📦 Project Structure
