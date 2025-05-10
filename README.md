@@ -40,11 +40,13 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 - **Source**: IMDB dataset from Keras datasets (`tensorflow.keras.datasets.imdb`)
 - **Content**: 25,000 labeled movie reviews (train) and 25,000 for testing
 
-## 📈 Performance
+## 📈 Model Performance
 
-- Accuracy: *[insert value here]*
-- Loss: *[insert value here]*
-- Evaluation metrics: Accuracy, Precision, Recall, F1-score
+- **Training Accuracy**: 84%
+- **Training Loss**: 0.87
+
+The RNN model was trained on the IMDB dataset and achieved a solid performance in detecting sentiment polarity from reviews. Further tuning or using LSTM/GRU could potentially improve results.
+
 
 ## 🌐 Streamlit App
 
