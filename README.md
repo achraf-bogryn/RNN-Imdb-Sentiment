@@ -1,5 +1,8 @@
 # 📚 Sentiment Analysis on IMDB Reviews using RNN
 
+![Model Architecture](images/sentiment-analysis.PNG)
+
+
 This project applies Recurrent Neural Networks (RNN) to perform sentiment analysis on movie reviews from the IMDB dataset. The model classifies reviews as either positive or negative based on their textual content.
 
 ## 🚀 Project Overview
@@ -45,10 +48,44 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 
 ## 🌐 Streamlit App
 
+![Model Architecture](images/streamlit-app.PNG)
+
+
+
 The app allows users to input their own movie reviews and receive sentiment predictions in real-time.
 
-### How to Run:
+## 🖥️ Installation & Usage
+
+### 🔹 Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/sentiment-analysis-imdb.git
+cd sentiment-analysis-imdb
+```
+
+### 🔹 Install the required packages:
+```bash
 pip install -r requirements.txt
+```
+
+### 🔹 Train the Model:
+```bash
+python sentiment_rnn.py
+```
+
+### 🔹 Run the Streamlit App:
+```bash
 streamlit run app.py
+```
+
+### 📦 Project Structure
+```bash 
+sentiment-analysis-imdb/
+│
+├── app.py                                     # Streamlit interface
+├── SimpleRnn/main.py                          # Model training script
+├── SimpleRnn/imdb_rnn_model.h5                # Saved RNN model
+├── images/                                    # Visual assets for README
+├── requirements.txt                           # Dependencies
+└── README.md
+```
