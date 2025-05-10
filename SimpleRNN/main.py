@@ -61,7 +61,7 @@ if st.button('Classify Sentiment'):
 
             # Display results
             st.write(f"### Sentiment: {sentiment}")
-            st.write(f"Prediction Score: {prediction_score:.4f}")
+            # st.write(f"Prediction Score: {prediction_score:.4f}")
         except Exception as e:
             st.error(f"Error making prediction: {e}")
 else:
