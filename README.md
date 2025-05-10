@@ -29,7 +29,7 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 ## 🧠 Model Architecture
 
 - Embedding Layer
-- SimpleRNN / LSTM / GRU (based on what you used)
+- SimpleRNN 
 - Dense Output Layer with Sigmoid Activation
 
 ## 📊 Dataset
