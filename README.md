@@ -1,5 +1,8 @@
 # 📚 Sentiment Analysis on IMDB Reviews using RNN
 
+![Model Architecture](images/sentiment-analysis.PNG)
+
+
 This project applies Recurrent Neural Networks (RNN) to perform sentiment analysis on movie reviews from the IMDB dataset. The model classifies reviews as either positive or negative based on their textual content.
 
 ## 🚀 Project Overview
@@ -22,7 +25,7 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 | TensorFlow     | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) |
 | Streamlit      | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) |
 | Jupyter Notebook | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) |
-| Matplotlib     | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white) |
+
 
 
 
@@ -37,18 +40,49 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 - **Source**: IMDB dataset from Keras datasets (`tensorflow.keras.datasets.imdb`)
 - **Content**: 25,000 labeled movie reviews (train) and 25,000 for testing
 
-## 📈 Performance
+## 📈 Model Performance
 
-- Accuracy: *[insert value here]*
-- Loss: *[insert value here]*
-- Evaluation metrics: Accuracy, Precision, Recall, F1-score
+- **Training Accuracy**: 84%
+- **Training Loss**: 0.87
+
+The RNN model was trained on the IMDB dataset and achieved a solid performance in detecting sentiment polarity from reviews. Further tuning or using LSTM/GRU could potentially improve results.
+
 
 ## 🌐 Streamlit App
 
+![Model Architecture](images/streamlit-app.PNG)
+
+
+
 The app allows users to input their own movie reviews and receive sentiment predictions in real-time.
 
-### How to Run:
+## 🖥️ Installation & Usage
+
+### 🔹 Clone the repository:
 
 ```bash
+git clone https://github.com/achraf-bogryn/RNN-Imdb-Sentiment.git
+cd RNN-Imdb-Sentiment
+```
+
+### 🔹 Install the required packages:
+```bash
 pip install -r requirements.txt
-streamlit run app.py
+pip install ipykernel
+```
+
+### 🔹 Run the Streamlit App:
+```bash
+streamlit run main.py
+```
+
+### 📦 Project Structure
+```bash 
+sentiment-analysis-imdb/
+│
+├── SimpleRnn/main.py                          # Streamlit interface
+├── SimpleRnn/imdb_rnn_model.h5                # Saved RNN model
+├── images/                                    # Visual assets for README
+├── requirements.txt                           # Dependencies
+└── README.md
+```
