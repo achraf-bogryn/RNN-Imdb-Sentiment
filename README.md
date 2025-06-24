@@ -42,8 +42,8 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) whe
 
 ## 📈 Model Performance
 
-- **Training Accuracy**: 84%
-- **Training Loss**: 0.87
+- **Training Accuracy**: 0.98
+- **Training Loss**: 0.04
 
 The RNN model was trained on the IMDB dataset and achieved a solid performance in detecting sentiment polarity from reviews. Further tuning or using LSTM/GRU could potentially improve results.
 
