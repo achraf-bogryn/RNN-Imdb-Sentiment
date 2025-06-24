@@ -50,7 +50,7 @@ The RNN model was trained on the IMDB dataset and achieved a solid performance i
 
 ## 🌐 Streamlit App
 
-![Model Architecture](images/streamlit-app.PNG)
+![Model Architecture](images/app.PNG)
 
 
 
